@@ -1,0 +1,194 @@
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    .container-sub{
+        width: 460px;
+    }
+    .title-part h1 {
+        font-size: 28px;
+    }
+    .title-part p {
+        padding: 10px;
+    }
+    .first-part {
+        padding: 0 50px;
+    }
+    .single-part {
+        width: 100%;
+        margin-right: 0;
+    }
+    .single-part .image img {
+        width: 100%;
+    }
+    .single-part .text {
+        padding: 24px;
+    }
+    .single-part .personal-blog h1 {
+        padding: 15px 0;
+    }
+    .title-part-2 h1 {
+        font-size: 28px;
+    }
+    .title-part-2 p {
+        padding: 10px;
+    }
+    .about-wrapper .single-image {
+        width: 441px;
+        margin-right: 0;
+    }
+    .single-image .photo-title {
+        padding: 15px 17px 14px 0;
+    }
+    .single-image .photo {
+        padding: 15px;
+    }
+    .single-image .photo-title h3 {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    .sub-wrapping{
+        padding: 15px;
+    }
+    .single-wrapping .imeage-text {
+        padding: 16px;
+    }
+    .first{
+        padding: 10px;
+    }
+    .experience-image {
+        width: 67%;
+        margin: 0 15px;
+    }
+    .experience-image img {
+        width: 366px;
+        height: 483px;
+      }
+    .experience-image .empty {
+        width: 78px;
+        height: 162px;
+        top: 132px;
+    }
+    .experience-image .empty .short-text h1 {
+        font-size: 24px;
+    }
+    .experience-image .empty .short-text h2 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .experience-image .empty-2 {
+        width: 78px;
+        height: 162px;
+        top: 132px;
+    }
+    .experience-image .empty-2 .short-text h1 {
+        font-size: 24px;
+    }
+    .experience-image .empty-2 .short-text h2 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .experience-title {
+        padding: 15px;
+    }
+    .experience-title h1 {
+        font-size: 28px;
+        margin-top: 24px;
+    }
+    .experience-title p{
+        font-size: 13px;
+    }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) and (min-width: 768px){
+    .container-sub{
+        width: 614px;
+    }
+    .single-part{
+        width: 283px;
+    }
+    .single-part .image img {
+        width: 283px;
+        height: 240px;
+    }
+    .about-wrapper .single-image {
+        width: 614px;
+        margin-right: 0;
+    }
+    .sub-wrapping {
+        padding: 0 90px;
+    }
+    .single-wrapping {
+        width: 100%;
+        margin-right: 0;
+      }
+      .single-wrapping .image img {
+        width: 100%;
+      }
+    .experience-image{
+        width: 94%;
+    }
+    .experience-title {
+        padding-left: 0;
+        padding-top: 28px;
+      }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (max-width:1199px) and (min-width: 990px){
+    .container-sub{
+        width: 776px;
+    }
+    .exprience-left{
+        float: none;
+    }
+    .experience-title {
+        margin-top: 28px;
+    }
+    .single-no-mr{
+        margin-right: 0;
+    }
+    .first-part{
+        width: 84%;
+        margin: auto;
+      }
+      .first.clr {
+        margin: auto;
+        width: 83%;
+    }
+    .single-image{
+        margin-right:0;
+    }
+    .single-wrapping .image img {
+        width: 364px;
+        height: 300px;
+    }
+    .single-wrapping {
+        width: 364px;
+    }
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1319px) and (min-width: 1200px){
+    .container-sub{
+        width: 1180px;
+    }
+    .single-part {
+        width: 277px;
+    }
+    .single-part .image img {
+        width: 277px;
+        height: 230px;
+    }
+    .about-wrapper .single-image {
+        width: 578px;
+    }
+    .single-wrapping {
+        width: 377px;
+    }
+    .single-wrapping .image img {
+        width: 377px;
+        height: 300px;
+    }
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
